@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://git.codelinaro.org/clo/la"
-          name="clo-la"
+          name="clo"
           sync-c="true"
           sync-tags="false"
           review="codelinaro.org"/>
 
-  <default remote="clo-la"/>
+  <default remote="clo" revision="partner-android/r-qpr1-fs-release"/>
 
   <include name="system.xml"/>
   <include name="vendor.xml"/>
